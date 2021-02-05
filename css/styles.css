@@ -5,11 +5,12 @@
 }
 
 .general{
-    width: 80%;
+    width: 86%;
     margin: auto;
     display: flex;
     flex-flow: column nowrap;
     background-color: #fe4;
+    height: 2000px;
 }
 header{
     background: #dfdfdf;
@@ -19,4 +20,19 @@ header{
     padding: 10px 0;
     font-family: 'Potta One', cursive;
     font-size: 10%px;
+}
+
+#lista{
+    background: #77f;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    line-height: 100px;
+}
+
+.caja{
+    height: 100px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 10px 0;
+    background: #eee;
 }
