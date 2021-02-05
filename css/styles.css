@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.general{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #fe4;
+}
+header{
+    background: #dfdfdf;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-family: 'Potta One', cursive;
+    font-size: 10%px;
+}
