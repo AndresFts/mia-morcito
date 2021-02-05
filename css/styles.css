@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #000;
+}
+
 .general{
     width: 86%;
     margin: auto;
     display: flex;
     flex-flow: column nowrap;
-    background-color: #fe4;
-    height: 2000px;
 }
 header{
-    background: #dfdfdf;
+    background: rgb(255, 230, 0);
     margin: 20px 0;
     display: flex;
     justify-content: center;
