@@ -15,8 +15,8 @@ body{
     flex-flow: column nowrap;
 }
 header{
-    background: rgb(255, 230, 0);
-    margin: 20px 0;
+    color: #fff;
+    margin: 20px 0 30px 0;
     display: flex;
     justify-content: center;
     padding: 10px 0;
