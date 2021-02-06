@@ -23,7 +23,7 @@ header{
     font-family: 'Potta One', cursive;
     font-size: 10%px;
     border-radius: 10px;
-    border: 3px dashed rgb(255, 230, 0);
+    border-bottom: 3px dashed rgb(255, 230, 0);
 }
 
 #lista{
