@@ -22,21 +22,24 @@ header{
     padding: 10px 0;
     font-family: 'Potta One', cursive;
     font-size: 10%px;
+    border-radius: 10px;
 }
 
 #lista{
-    background: #77f;
     display: flex;
     flex-flow: column nowrap;
     text-align: center;
     line-height: 100px;
+    color: #fff;
 }
 
 .caja{
+    background: #333;
     height: 100px;
     font-family: 'Work Sans', sans-serif;
     margin: 10px 0;
     background: #eee;
+    border-radius: 10px;
 }
 
 #caja1{
