@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Lista</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Work+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Web Project</title>
 </head>
 <body>
-  <div class="general">
-    <header>
-      <h1>Cosas por hacer</h1>
-      <span class="linea"></span>
-    </header>
+    <h1>Calculadora</h1>
+    <div class="contenedor-calc">
+        <form class="calculator" name="calc">
+            <input class="value" id="value" type="text" name="txt" readonly>
+            <span class="num clear" onclick="document.calc.txt.value = ''">c</span>
+            <span class="num">/</span>
+            <span class="num">*</span>
+            <span class="num">7</span>
+            <span class="num">8</span>
+            <span class="num">9</span>
+            <span class="num">-</span>
+            <span class="num">4</span>
+            <span class="num">5</span>
+            <span class="num">6</span>
+            <span class="num plus">+</span>
+            <span class="num">3</span>
+            <span class="num">2</span>
+            <span class="num">1</span>
+            <span class="num">0</span>
+            <span class="num">00</span>
+            <span class="num">.</span>
+            <span class="num equal">=</span>
+        </form>
+    </div>
 
-    <section id="lista">
-      <div class="caja" id="caja0">
-        <h2>Hablar cursi hoy</h2>
-      </div>
-      <div class="caja" id="caja1">
-        <h2>Usar collares iguales o complementarios</h2>
-      </div>
-      <div class="caja" id="caja2">
-        <h2>Tomarnos fotos para imprimirlas</h2>
-      </div>
-      <div class="caja" id="caja3">
-        <h2>Encuadrar una o mas fotos</h2>
-      </div>
-      <div class="caja" id="caja4">
-        <h2>poner una mini en la carcasa</h2>
-      </div>
-      <div class="caja" id="caja5">
-        <h2>Quererte un poco menos</h2>
-      </div>
-    </section>
-  </div>
+
+
+
+<script src="code.js"></script>
 </body>
 </html>
